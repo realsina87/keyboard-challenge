@@ -22,7 +22,8 @@ ul{
     display: flex;
     height: 100px;
     align-items: center;
-    justify-content: space-between;
+    gap: 5px;
+    flex-direction: column;
     left: 30px;
     color: #fff;
     font-weight: bold;
@@ -44,7 +45,8 @@ ul{
 
 }
 li{
-    display: inline-block;
+    display: block;
+    margin: 15px 0px 0px 20px;
 }
 .active{
     box-shadow: 3px 3px 5px #43454a,
@@ -57,4 +59,6 @@ div{
     box-shadow: -3px -3px 5px #43454a,
     3px 3px 5px #121418;
     border-radius: 10px;
+    display: inline-block;
+    margin-left: 5px;
 }
